@@ -3,6 +3,9 @@
 	name = Matt Scilipoti
 	email = matt@scilipoti.name
 
+[github]
+	user = mattscilipoti
+	token = 06a25ef95e2a5997fd523243688d9419
 # DO NOT EDIT BELOW THIS LINE
 [color]
 	diff = auto
@@ -23,6 +26,3 @@
   out = log origin..HEAD
 	svnpull = svn rebase
 	svnpush = svn dcommit
-[github]
-	user = mattscilipoti
-	token = 06a25ef95e2a5997fd523243688d9419
