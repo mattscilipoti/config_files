@@ -1,7 +1,30 @@
-# print SQL to STDOUT
-if ENV.include?('RAILS_ENV') && !Object.const_defined?('RAILS_DEFAULT_LOGGER')
-  require 'logger'
-  RAILS_DEFAULT_LOGGER = Logger.new(STDOUT)
+require 'rubygems'
+require 'wirble'
+require 'hirb'
+Wirble.init
+Wirble.colorize
+Hirb::View.enable
+
+puts "`include RailsHelper` for named_urls, helpers, etc."
+module RailsHelper
+  def self.included(base)
+    ##from: http://kpumuk.info/ruby-on-rails/memo-6-using-named-routes-and-url_for-outside-the-controller-in-ruby-on-rails/
+    ## this is slow because all routes and resources being calculated now
+    base.send('include', ActionController::UrlWriter)
+    base.default_url_options[:host] = 'www.example.com'
+
+    DatabaseCleaner.strategy = :truncation, {:except => SeedData.seed_tables}
+    puts "You can now utilize named_urls & DatabaseCleaner.clean"
+
+    # print SQL to STDOUT
+      require 'logger'
+     RAILS_DEFAULT_LOGGER = Logger.new(STDOUT) if !Object.const_defined?('RAILS_DEFAULT_LOGGER')
+   
+  end
+end
+
+if ENV.include?('RAILS_ENV')
+  include RailsHelper
 end
 
 # Autocomplete

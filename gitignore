@@ -1,5 +1,24 @@
-.*.swp
-tags
-.swo
-jferris-*.gemspec
-*.scratch.*
+#no need to backup/large du
+Desktop
+.VirtualBox
+
+#browser cache
+.mozilla/firefox/**/Cache
+.opera/cache4
+.opera/opcache
+.opera/images
+.opera/vps
+firefox_profile_backup
+
+#dev
+.gem
+.RubyMine10/system/caches
+develop
+mattscilipoti-*.gemspec
+setup-ruby-dev
+
+#tmp
+.adobe/Flash_Player/AssetCache
+.cache
+.local/share/Trash
+*.log

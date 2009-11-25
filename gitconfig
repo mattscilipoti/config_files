@@ -1,5 +1,7 @@
 # ADD LOCAL CONFIGURATION HERE
-
+[user]
+	name = Matt Scilipoti
+	email = matt@scilipoti.name
 
 # DO NOT EDIT BELOW THIS LINE
 [color]
@@ -9,6 +11,7 @@
 [core]
 	excludesfile = ~/.gitignore
 [alias]
+	ci = commit
   c = commit -m
   a = add
   di = diff
@@ -16,5 +19,10 @@
   pl = pull
   ps = push
   plre = pull --rebase
-  st = status
+	st = status
   out = log origin..HEAD
+	svnpull = svn rebase
+	svnpush = svn dcommit
+[github]
+	user = mattscilipoti
+	token = 06a25ef95e2a5997fd523243688d9419
