@@ -1,0 +1,11 @@
+#path for gems
+PATH=/home/matt/.gem/ruby/1.8/bin:$PATH
+
+#for jeweller gem
+export JEWELLER_OPTS="--gemcutter"
+
+#rspec progressbar
+# see: http://ekenosen.net/nick/devblog/2008/12/better-progress-bar-for-rspec/
+alias sspb='script/spec --require ~/lib/rspec/compact_progress_bar_formatter.rb --format Spec::Runner::Formatter::CompactProgressBarFormatter --color'
+alias  spb='spec        --require ~/lib/rspec/compact_progress_bar_formatter.rb --format Spec::Runner::Formatter::CompactProgressBarFormatter --color'
+

@@ -1,0 +1,31 @@
+#see: http://richardhulse.blogspot.com/2008/06/using-git.html
+#see: http://blog.ericgoodwin.com/2008/4/10/auto-completion-with-git
+
+alias gst='git status '
+alias gc='git commit '
+alias gca='git commit -a '
+alias ga='git add '
+alias gco='git checkout '
+alias gb='git branch '
+alias gd='git diff '
+alias gm='git merge '
+alias grm='git rebase master'
+alias svnpull='git svn rebase'
+alias svnpush='git svn dcommit'
+
+if [ -f ~/.git-completion.bash ]; then
+  source ~/.git-completion.bash
+fi
+
+#auto complete bash aliases
+complete -o default -o nospace -F _git_branch gb
+complete -o default -o nospace -F _git_checkout gco
+
+#prompt: title=>full path, promt=>[git branch] last dir
+
+
+##TODO: Once Bash 4 is available,
+##  Replace the following mess with
+##   PROMPT_DIRTRIM=20
+PS1='\[\033]0;\w\007\][`__git_ps1`] \W\$ '
+
