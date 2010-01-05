@@ -6,6 +6,7 @@ Wirble.colorize
 Hirb::View.enable
 
 puts "`include RailsHelper` for named_urls, helpers, etc."
+
 module RailsHelper
   def self.included(base)
     ##from: http://kpumuk.info/ruby-on-rails/memo-6-using-named-routes-and-url_for-outside-the-controller-in-ruby-on-rails/
@@ -17,14 +18,17 @@ module RailsHelper
     puts "You can now utilize named_urls & DatabaseCleaner.clean"
 
     # print SQL to STDOUT
+    if !Object.const_defined?('RAILS_DEFAULT_LOGGER')
       require 'logger'
-     RAILS_DEFAULT_LOGGER = Logger.new(STDOUT) if !Object.const_defined?('RAILS_DEFAULT_LOGGER')
-   
+      const_set('RAILS_DEFAULT_LOGGER', Logger.new(STDOUT))
+      ActiveRecord::Base.logger = Logger.new(STDOUT)
+    end
+
   end
 end
 
 if ENV.include?('RAILS_ENV')
-  include RailsHelper
+#  include RailsHelper
 end
 
 # Autocomplete
@@ -45,8 +49,8 @@ class Object
   end
 end
 
-# copy a string to the clipboard
-def pbcopy(string)
-  `echo "#{string}" | pbcopy`
-  string
-end
+## copy a string to the clipboard (Mac only)
+#def pbcopy(string)
+#  `echo "#{string}" | pbcopy`
+#  string
+#end
