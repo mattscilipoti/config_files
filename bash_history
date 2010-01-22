@@ -1,500 +1,500 @@
-mv public/images/samples/TraffiStar_R560.jpg public/images/samples/working/
-du public/images/samples/ -h -s
-cucumber features/incident_show.feature -p wip
+cucumber --help
+time cucumber features/jobs/register_video.feature:24 -p debug -v
+time cucumber features/jobs/register_video.feature:24
+time cucumber features/jobs/register_video.feature:24 -p debug
+time cucumber features/jobs/register_video.feature:24 -p
+time cucumber features/jobs/register_video.feature:24 -p debug
+time cucumber features/jobs/register_video.feature:24 
+time cucumber features/jobs/register_video.feature:24 -p debug
+gem ininstall cucumber
+gem uninstall cucumber
+time cucumber features/jobs/register_video.feature:24 -p debug
 gst
-gc config/initializers/rails_extensions/environment.rb
-ga config/initializers/rails_extensions/environment.rb
-gc config/initializers/rails_extensions/environment.rb
-ga public/images/samples/
-du public/images/samples/ -h -s
+gd
+time cucumber features/jobs/register_video.feature:24 -p debug
+time cucumber features/jobs/register_video.feature:24
+time cucumber features/jobs/register_video.feature:24 -p debug
+time cucumber features/jobs/register_video.feature
+spb spec
+time cucumber features/jobs/register_video.feature
+time cucumber features/jobs/register_video.feature:24 -p debug
+time cucumber features/jobs/register_video.feature:24
+script/generate cucumber --spork
+time cucumber features/jobs/register_video.feature:24
+time cucumber features/jobs/register_video.feature:24 -p debug
+time cucumber features/jobs/register_video.feature:24
+time cucumber features/jobs/register_video.feature:24 -p debug
 gst
-git reset HEAD
-find public/images/samples/ -name 013*.*
-move
-man rename
-cd public/images/samples/working/
-rename -n -v 's/013(.*)/Sample$1/' 013*.jpg
-ls
-cd ..
-cp samples tmp/
-cp -R samples tmp/
-cp -R samples /tmp/
-ls /tmp/samples/
-ls tmp/
-rm -r tmp/data_bar/
-rm -r tmp/thm
-rm -r tmp/thumb/
-rm -r tmp/working/
-ls
-cd samples/
-ls
-cd working/
-rename -n -v 's/013(.*)/Sample$1/' 013*.jpg
-rename -v 's/013(.*)/Sample$1/' 013*.jpg
-cd ../thumb/
-rename -n -v 's/013(.*)/Sample$1/' 013*.jpg
-rename -v 's/013(.*)/Sample$1/' 013*.jpg
-cd ../data_bar/
-ls
-rename -n -v 's/013(.*)/Sample$1/' 013*.jpg
-rename -v 's/013(.*)/Sample$1/' 013*.jpg
-cucumber features/incident_show.feature -p wip
-cd ..
-cucumber features/incident_show.feature -p wip
-gst
-ga public/images/samples/
-gst
+gem list cucu
+gem uninstall cucumber-rails
+time cucumber features/jobs/register_video.feature:24 -p debug
+script/generate cucumber --spork
+time cucumber features/jobs/register_video.feature:24 -p debug
 cucumber 
-gem search -r trollop
-gst
-gem install nitpick
-gem install rails_best_practices
-gst
-rails_best_practices .
-gst
-cucumber features/citation_show.feature:7
-cucumber features/citation_show.feature:7 -p debug
-rake -T db
-cucumber features/citation_show.feature:7 -p debug
-cucumber -p wip
-gst
-ga app/views/citations/_citation_details.html.haml
-gst
-gco master
-svnpull
-gco incident
-grm
-gco master
-git merge incident
-svnpush
-gco incident
-grm
-cap production deploy
-rake moonshine:gems
-gst
-gd
-rake moonshine:gems RAILS_ENV=production
-gd
-gst
-gco master
-git merge incident
-svnpush
-gco incident 
-grm
-cap production deploy
-rake spec:recent
-rake -g spec:recent
-spec -cfs spec/models/camera_event_spec.rb 
-spec -cfs spec/models/citation_spec.rb 
-gst
-grm
-gco master
-gti merge incident
-git merge incident
-svnpush
-cap production deploy
-cap -T
-cap production config:generate_global_settings_yml
-cap production config:restart
-cap production deploy:restart
-gst
-svnpush
-cap production deploy
-gst
-svnpush
-cap production deploy
-git log
-cap -T config
-cat /home/matt/develop/clients/nih/mpr.ror/trunk/config/environments/production.rb 
-cat /home/matt/develop/clients/nih/mpr.ror/trunk/config/environment.rb 
-rake -g spec:recent
-rake -T moon
-ls config/
-telnet
-ruby test/email/manual_test_of_smtp.rb 
-nslookup
-ruby test/email/manual_test_of_smtp.rb 
-rd
-rdebug --no-stop test/email/manual_test_of_smtp.rb 
-ruby test/email/manual_test_of_smtp.rb 
-telnet 192.168.0.25
-telnet 192.168.0.90 25
-ruby test/email/manual_test_of_smtp.rb 
-gco mailer
-gco -b mailer
-gst
-ga test/email/
-ga app/mailers/
-gst
-gco config/environments/development.rb
-gco incident
-git stash
-gco master
-svnpull
-git merge mailer
-svnpush
-gco incident
-grm
-git stash pop
-gst
-gd
-gem list -d cap
+cucumber features/camera_event_associations.feature:6 -p debug
+gem list cuc
+cucumber features/camera_event_associations.feature:6 -p debug
+history -w
+exit
+cucumber features/camera_event_associations.feature:6 -p debug
+exit
+cucumber features/camera_event_associations.feature:6 -p debug
+cucumber features/camera_event_associations.feature:6 TXN=false
+cucumber features/camera_event_associations.feature:6 -p debug
+cucumber features/camera_event_associations.feature:6 TXN=false -p debug
+cucumber features/camera_event_associations.feature:6 TXN=false
+TXN=false cucumber features/camera_event_associations.feature:6 -p debug
+cucumber features/camera_event_associations.feature:6 TXN=false
+cucumber features/camera_event_associations.feature:6
+cucumber features/camera_event_associations.feature:6 -p debug
+exit
+spork cuc
+gem list cuc
+gem uninstall cucumber
+spork cuc
+spork cuc DEBUG=true
+DEBUG=true spork cuc
+spork cuc
+exit
+ssh deploy@10.0.4.109
+cd
 cd /tmp
-mv /home/matt/Downloads/rubymine-2.0.tar.gz 
-mv /home/matt/Downloads/rubymine-2.0.tar.gz /tmp/
-ls
-tar -zxvf rubymine-2.0.tar.gz 
-sudo mv rubymine91.15 /usr/local/lib/
+wget http://download.jetbrains.com/ruby/rubymine-2.0.1.tar.gz
+tar -zxvf rubymine-2.0.1.tar.gz 
+sudo mv rubymine93.95 /usr/local/lib/
 sudo vi /usr/local/bin/rubymine 
+exit
+cd /home/matt/develop/clients/traffipax/tipsng/tips
+cd /home/matt/develop/gems/
 ls
-idisk.mount 
-telnet 192.168.0.90 25
-top
-ls /home/matt/develop/gems/
-gem pristine cap
-gem pristine capistrano_rsync_with_remote_cache
-sudo gem pristine capistrano_rsync_with_remote_cache
-sudo gem install capistrano_rsync_with_remote_cache
-ls
+cd cucumber-rails/
+hub pull
+cat .git/config 
+hub remote add aslakhellesoy
+cat .git/config 
+hub pull aslakhellesoy
+hub pull aslakhellesoy/master
+hub pull aslakhellesoy.master
+hub pull aslakhellesoy master
+git pull
+gb
+gco -b aslak
+hub pull aslakhellesoy master
+grm
 gst
-git log
-ls
-pwd
-cd /home/matt/develop/gems/capistrano_rsync_with_remote_cache/
+gd
+gb
+gco browse
+gd
+gc --interactive
 gst
-git log
-gco cvs_ignore
-gco -b cvs_ignore
+gco aslak
+hub pull aslakhellesoy master
+gco master
+git merge aslak
+gco browse
 grm
 gco master
-gb -d cvs_ignore
-gco -b cvs_ignore
-gst
-gca
-gst
-gca
-git push cvs_ignore cvs_ignore
-git push origin cvs_ignore
-cd ..
-rm -rf capistrano_rsync_with_remote_cache/
-git clone git@github.com:mattscilipoti/capistrano_rsync_with_remote_cache.git
-cd capistrano_rsync_with_remote_cache/
-gco -b cvs_ignore
-gco master
-gb -d cvs_ignore
-gco -b cvs_exclude
-gst
-gca
-git push origin cvs_exclude
-sudo gem uninstall capistrano_rsync_with_remote_cache
-gem list cap
+git merge browse
 rake -T
+rake gemspec
+gst
 rake build
-ls pkg/
-gem install pkg/capistrano_rsync_with_remote_cache-2.3.6.gem 
-sudo gem uninstall capistrano_rsync_with_remote_cache
-rake 
-rake -T gem
+gem install pkg/mattscilipoti_cucumber-rails-0.2.4.gem 
+git push
+cat .git/config 
+vi .git/config 
+git push
+rake release
+rake gemspec
+gst
+gco Rakefile
+gst
+rake build
+gem install pkg/mattscilipoti_cucumber-rails-0.2.4.gem 
+gem list cucumber-rails.gemspec 
+gem list cucumber
+gem search cucumber
+cat /home/matt/.gem/ruby/1.8/gems/mattscilipoti_cucumber-rails-0.2.4/lib/cucumber/rails/active_record.rb 
+rake build
+gem install pkg/mattscilipoti_cucumber-rails-0.2.4.gem 
+rake build
+gem install pkg/mattscilipoti_cucumber-rails-0.2.4.gem 
+pwd
+gst
+gd
+gst
+gco cucumber-rails.gemspec
+gst
+rake build
+gem install pkg/mattscilipoti_cucumber-rails-0.2.4.gem 
+cat /home/matt/.gem/ruby/1.8/gems/mattscilipoti_cucumber-rails-0.2.4/lib/cucumber/rails/active_record.rb 
+vi /home/matt/.gem/ruby/1.8/gems/mattscilipoti_cucumber-rails-0.2.4/lib/cucumber/rails/active_record.rb 
+vi /home/matt/.gem/ruby/1.8/gems/mattscilipoti_cucumber-rails-0.2.4/lib/cucumber/rails/world.rb 
+vi /home/matt/.gem/ruby/1.8/gems/mattscilipoti_cucumber-rails-0.2.4/lib/cucumber/rails/active_record.rb 
+gst
+gd
+gco lib/cucumber/rails/world.rb
+gst
+rake build
+gem install pkg/mattscilipoti_cucumber-rails-0.2.4.gem 
+vi /home/matt/.gem/ruby/1.8/gems/mattscilipoti_cucumber-rails-0.2.4/lib/cucumber/rails/active_record.rb 
+vi /home/matt/.gem/ruby/1.8/gems/cucumber-0.6.2/lib/cucumber/cli/options.rb 
+vi /home/matt/.gem/ruby/1.8/gems/cucumber-0.6.2/lib/cucumber/cli/configuration.rb 
+vi /home/matt/.gem/ruby/1.8/gems/mattscilipoti_cucumber-rails-0.2.4/lib/cucumber/rails/world.rb 
+vi /home/matt/.gem/ruby/1.8/gems/cucumber-0.6.2/lib/cucumber/cli/options.rb 
+vi /home/matt/.gem/ruby/1.8/gems/mattscilipoti_cucumber-rails-0.2.4/lib/cucumber/rails/world.rb 
+rake build
+gem install pkg/mattscilipoti_cucumber-rails-0.2.4.gem 
+vi /home/matt/.gem/ruby/1.8/gems/cucumber-0.6.2/lib/cucumber/cli/options.rb 
+rake release
+gst
+ls
+gst
+gitk
+git merge browse
+gco browse
+grm
+gitk
+cd ..
+ls
+mv mattscilipoti-model_steps mattscilipoti_model-steps
+cd mattscilipoti_model-steps/
+ls
+rake
+cucumber 
+ls
+rake build
+gem install pkg/mattscilipoti-model_steps-0.0.0.gem 
+cd ,,
+cd ..
+ls
+cd mattscilipoti_model-steps/
+rake build
+gem install pkg/mattscilipoti_model-steps-0.0.0.gem 
+rm -rf mattscilipoti-model_steps.gemspec 
+rake build
+gem install pkg/mattscilipoti_model-steps-0.0.0.gem 
+rake build
+gem install pkg/mattscilipoti_model-steps-0.0.0.gem 
+rake build
+gem install pkg/mattscilipoti-model_steps-0.0.0.gem 
 rake gemspec
 rake build
-ls pkg/
-gem install pkg/capistrano_rsync_with_remote_cache-2.
-gem search cap
-sudo gem uninstall capistrano_rsync_with_remote_cache
-gem search cap
-rake build
-gem install pkg/mattscilipoti-capistrano_rsync_with_remote_cache-2.3.6.gem 
-gem push pkg/mattscilipoti-capistrano_rsync_with_remote_cache-2.3.6.gem 
-gem install mattscilipoti-capistrano_rsync_with_remote_cache-2.3.6.gem 
-gem install mattscilipoti-capistrano_rsync_with_remote_cache
+gem install pkg/mattscilipoti-model_steps-0.0.0.gem 
+gem list matt
 gst
-gc lib
-git push origin cvs_exclude
-gem uninstall mattscilipoti-capistrano_rsync_with_remote_cache
-gem push pkg/mattscilipoti-capistrano_rsync_with_remote_cache-2.3.6.gem 
-gem install mattscilipoti-capistrano_rsync_with_remote_cache
-gem uninstall mattscilipoti-capistrano_rsync_with_remote_cache
-gem build
-rake build
-gem push pkg/mattscilipoti-capistrano_rsync_with_remote_cache-2.3.6.gem 
-gem install mattscilipoti-capistrano_rsync_with_remote_cache
-rake
-gem install yard
-rake test
-rake test --color
-gem list red
-gem install redgreen
-rake test
-gst
-gc test
-gco master
-rake test
-gco cvs_exclude
-autotest
-autotest test/capistrano_rsync_with_remote_cache_test.rb 
-gem list red
-gem search -r red
-gem search -r green
-gem install Redgreen
-rake test
-gem install RedGreen
-rake test
-gem list test
-sudo gem install test-unit -v 1.2.3
-gem install test-unit -v 1.2.3
-
-gem uninstall redgreen
-rake test | RedGreen
 gd
+gca
 gst
-gc test/
-gitk
+git reset HEAD .idea/.*
 gst
-gco test/capistrano_rsync_with_remote_cache_test.rb
-git reset HEAD^
+ga lib/
 gst
-gd test
-rake test | RedGreen
-gc test/
-git push origin cvs_exclude
+gd
+rake gemspec
 rake build
-gem push pkg/mattscilipoti-capistrano_rsync_with_remote_cache-2.3.6.gem 
-gem uninstall mattscilipoti-capistrano_rsync_with_remote_cache
-gem install mattscilipoti-capistrano_rsync_with_remote_cache
-rake test | rg
-gem install redgreen
+gem install pkg/mattscilipoti-model_steps-0.0.0.gem 
+ssh deploy@tips-demo
+ssh deploy@tipsng
+exit
+script/console production
+ping tipsmail
+ping tips-mail
+ls
+less log/development.log 
+less --raw log/development.log 
+gem outdated
 script/console production
 exit
-script/server
-exit
 script/console
-exit
-ssh deploy@tips-prodcution
-ssh deploy@tips-production
-exit
+gco bif
 script/console
-cap staging deploy
-script/console
-exit
-script/server
-script/server -u
-script/server
-script/server -u
-exit
-cd develop/clients/traffipax/tipsng/tips
+cucumber features/camera_event_associations.feature:6 -p debug
 gst
-cucumber -p wip
-spec -cfs spec/models/image_spec.rb 
-cucumber -p wip
-gitk
-gitk &
-gitk --all &
-spb spec
-spb spec/models/citation_*
+cucumber features/camera_event_associations.feature:6 -p debug
+cucumber features/camera_event_associations.feature:6 -p debug | tee /tmp/dev.log
+less /tmp/dev.log 
+cucumber features/camera_event_associations.feature:6 -p debug | tee /tmp/dev.log
+cucumber features/camera_event_associations.feature:6 -p debug
+gst
+script/generate cucumber 
+gst
+cucumber features/camera_event_associations.feature:6 -p debug
+cucumber features/jobs/register_video.feature 
+spec -cfs spec/models/camera_event_spec.rb 
+gst
+cucumber features/jobs/register_video.feature 
 gd
-cd public/images/samples/
-wget https://www.safecitystreets.com/batchimage/13/191/191_2009-11-14/video/video_clip_091114_091234.avi
-ls
-ls -lsa
-wget https://www.safecitystreets.com/batchimage/13/191/191_2009-11-14/working/0000038_465A_sc.jpg
-wget https://www.safecitystreets.com/batchimage/13/191/191_2009-11-14/thumb/0000038_465B_sc.jpg
-ls
-rm 0000038_465*
-ls
-cd working/
-wget https://www.safecitystreets.com/batchimage/13/191/191_2009-11-14/working/0000038_465A_sc.jpg
-wget https://www.safecitystreets.com/batchimage/13/191/191_2009-11-14/working/0000038_465B_sc.jpg
-cd ..
-cd thumb
-wget https://www.safecitystreets.com/batchimage/13/191/191_2009-11-14/thumb/0000038_465A_sc.jpg
-wget https://www.safecitystreets.com/batchimage/13/191/191_2009-11-14/thumb/0000038_465B_sc.jpg
-cd ..
-ls
-cd data_bar/
-wget https://www.safecitystreets.com/batchimage/13/191/191_2009-11-14/data_bar/0000038_465A_sc.jpg
-wget https://www.safecitystreets.com/batchimage/13/191/191_2009-11-14/data_bar/0000038_465B_sc.jpg
-cd ..
-ls
-mkdir video
-cd $1
-ls
-cd develop/clients/traffipax/tipsng/tips/public/images/
-ls
-cd samples/
-cd video/
-ls
-mv ../video_clip_091114_091234.avi .
-ls
-mv video_clip_091114_091234.avi sample.avi
-cd ..
-cd data_bar/
-ls
-rm Sample?_sc.jpg 
-rename --help
-man rename
-rename 's/\.bak$//' *.bak
-rename -v -n 's/.+(_sc\.jpg)/Sample$1/' *.jpg
-rename -v -n 's/.+(._sc\.jpg)/Sample$1/' *.jpg
-rename -v 's/.+(._sc\.jpg)/Sample$1/' *.jpg
-ls
-cd ..
-cd working/
-ls
-rm Sample?_sc.jpg 
-wget https://www.safecitystreets.com/batchimage/13/191/191_2009-11-14/working/0000038_465A_pl.jpg
-cd ../thumb/
-wget https://www.safecitystreets.com/batchimage/13/191/191_2009-11-14/thumb/0000038_465A_pl.jpg
-ls
-wget https://www.safecitystreets.com/batchimage/13/191/191_2009-11-14/thumb/0000038_465B_pl.jpg
-cd ../working/
-wget https://www.safecitystreets.com/batchimage/13/191/191_2009-11-14/working/0000038_465B_pl.jpg
-ls
-rm Sample?_??.jpg 
-rename -v -n 's/.+(._sc\.jpg)/Sample$1/' *.jpg
-rename -v -n 's/.+(._..\.jpg)/Sample$1/' *.jpg
-rename -v 's/.+(._..\.jpg)/Sample$1/' *.jpg
-cd ../thumb/
-rm Sample?_??.jpg 
-rename -v 's/.+(._..\.jpg)/Sample$1/' *.jpg
-ls
-cd ..
-ld
-ls
-ls data_bar/
-ls thumb/
-ls working/
-ls -lsa
-ls -lsa data_bar/
-ls -lsa working/
-cd working/
-wget https://www.tipsapproval.com/batchimage/13/191/191_2009-11-14/working/0000038_465B_sc.jpg
-ls
-ls -lsa
-firefox SampleB_pl.jpg 
-rm SampleB_pl.jpg 
-rm 0000038_465B_sc.jpg 
-ls -lsa
-cd ../thumb/
-ls -lsa
-rm SampleB_pl.jpg 
-ls -lsa
-cd ..
-ls
-firefox video/sample.avi 
-gst
-ga video/
-gst
-cd ..
-gst
-git mv samples/video/sample.avi samples/video/Sample.avi
-gst
-cucumber -p wip
-cd ..
-cucumber -p wip
-ls public
-ls public/images/samples/
-ls public/images/samples/working/
-ls public/images/samples/thumb/
-cucumber -p wip
-rake db:migrate
-rake db:migrate:down VERSION=20091123201610
-cucumber -p wip
-rake db:migrate
-rake db:migrate:down VERSION=20091123201610
-rake db:migrate
-gst
-ga app/models/video.rb 
-ga db/migrate/20091123201610_make_image_sti.rb
-rm app/views/ontario_court_prints/create.html.erb
+cucumber features/jobs/register_video.feature 
+cucumber -format pretty features/jobs/regis;5D;5Dter_video.feature 
+cucumber --format pretty features/jobs/register_video.feature 
+cat tmp/cucumber/rerun.txt 
 cucumber 
+cucumber features/jobs/register_video.feature -p demo
+ls /usr/lib
+which rubymine
 gst
-git reset --soft HEAD^
+git stash
+gco 130
+grm
+gst
+cucumber features/jobs/create_incidents.feature -p demo
+gco master
+gco spork
+gitk
+gco 130
+cucumber features/jobs/create_incidents.feature -p demo
+cucumber features/jobs/create_incidents.feature
+gst
+cucumber 
+cucumber features/jobs/create_incidents.feature
+gst
+gd
+cucumber features/jobs/create_incidents.feature
+gd
+cucumber features/jobs/create_incidents.feature
+cucumber 
+spb spec
+spb spec/models/camera_event_spec.rb 
+cucumber 
+spb spec
+gd
 gst
 gco master
 svnpull
-gco incident
+gco 130
 grm
 gco master
-git merge incident
+git merge 130
 svnpush
-gco incident
+cap -T pend
+cap production deploy:pending
+cucumber 
+gco -b model-steps
+gst
+gem list matt
+cucumber 
+gem list
+gem list matt
+cucumber 
+gem list matt
+gem uninstall mattscilipoti-model_steps
+cucumber 
+gem list matt
+cucumber 
+gem uninstall mattscilipoti_model-steps
+cucumber 
+gem list matt
+cucumber 
+gem list matt
+cucumber 
+gem uninstall mattscilipoti-model_steps
+gem list matt
+cucumber 
+gst
+gd
+gco -f
+gst
+gco master
+cap -T pend
+cap beta deploy:pendind:diff
+cap demo deploy:pendind:diff
+cap demo deploy:pending:diff
+cap demo deploy:pending:diff | grep migrat
+gst
+gco -f
+gst
+cap demo deploy:migrations
+cap -T
+rake moonshine:gems
+gst
+RAILS_ENV=production rake moonshine:gems
+svnpush
+cap demo deploy:migrations
+gst
+cucumber 
+cap -T
+cap demo deploy:check
+cap demo deploy
+cap demo deploy:migrations
+cap production deploy:pend
+cap production deploy:pending
+cap production deploy
+gst
+g
+gd
+svnpush
+gco -b 157
+cucumber -p wip
+gst
+cucumber -p wip
+gd
+cucumber -p wip
+cucumber 
+gd
+cucumber 
+cucumber features/review_import_activity.feature 
+spb spec
+spb spec/lib/
+gst
+gco master
+svnpull
+gco 157
 grm
-gco mailer
+gco master
+git merge 157
+svnpush
+RAILS_ENV=production rake moonshine:gems
+gd
+gst
+cap demo deploy
+cap -T
+cap -D invoke 
+cap --help
+cap -e invoke 
+cap demo COMMAND="rake db:seed" invoke
+rake -T seed
+rake spec:recent
+rake -g spec:recent
+cucumber 
+gco 157
+cucumber 
+gst
+gco master
+svnpull
+gco 157
 grm
-cd /home/matt/develop/clients/nih/mpr.ror/trunk/
+gco master
+git merge 157
+svnpush
+cap demo deploy
+svnpush
+cap demo deploy
+cucumber features/troubles_index.feature 
+cucumber features/troubles_index.feature -p demo
+gst
+svnpush
+gco 157
+grm
+gst
+git log
+cucumber features/troubles_index.feature -p demo
+cd ..
 ls
-svn st
-rm -rf vendor/plugins/nested_has_many_through/.git
-svn st
-svn up vendor/plugins/nested_has_many_through/.git
-svn ci vendor/plugins/nested_has_many_through/.git
-svn st
-svn up vendor/plugins/nested_has_many_through/
-svn ci vendor/plugins/nested_has_many_through/
-svn st
-svn diff app/models/sty_site_abstract_gene*
-svn st
-svn diff app/models/sty_site_abstract_gene*
-svn diff app/models/sty_site_abstract_gene* | less
-svn revert app/models/sty_site_abstract_gene.rb 
-svn st
-cat lib/tasks/spec_recent.rake
-svn add lib/tasks/spec_recent.rake
-svn ci lib/tasks/spec_recent.rake
-svn add features/step_definitions/sty_site_abstract_gene_steps.rb
-svn ci features/step_definitions/sty_site_abstract_gene_steps.rb
-gst
-svn st
-cap staging deploy
-cucumber -p wip
-cap staging deploy
-cucumber -p wip
-svn st
-svn diff ls vendor/tmp
-ls vendor/tmp
-svn add app/views/sty_site_abstract_genes/show.html.haml
-svn st
-dvn diff app/models/sty_site_abstract_gene.rb
-svn diff app/models/sty_site_abstract_gene.rb
-
-cucumber -p wip
-rake db:migrate:down VERSION=002
-rake db:migrate
-cucumber -p wip
-svn st
-cap staging deploy
-cucumber -p wip
-cap staging deploy:cleanup
-cap staging deploy
-cap staging deploy:cleanup
-cap staging deploy
-cucumber -p wip
-cucumber
-cucumber -f pretty
-spb spec
-spb spec/models/all_models_spec.rb
-spb spec
-spb spec/views/mpr_proteins/show_rhtml_spec.rb
-spb spec
-spb spec/helpers/
-spb spec
-spb spec/models/site_sweeper_spec.rb 
-spb spec
-spb spec/controllers/blast_query_controller_spec.rb 
-spb spec
-spb spec/views/blast_query/
-spb spec
-cap staging deploy
+rm -rf mattscilipoti_model-steps/
+cd /tmp
+wget http://rubyforge.org/frs/download.php/68719/ruby-enterprise-1.8.7-2010.01.tar.gz
+tar xzvf ruby-enterprise-1.8.7-2010.01.tar.gz 
+./ruby-enterprise-1.8.7-2010.01/
+ssh deploy@tips-demo
+cd /tmp/
+wget http://rubygame.org/forums/download/file.php?id=10
+ls
+mv /home/matt/Downloads/AntFrenzy.rar .
+ls
+l
+ls
+tar -zxvf AntFrenzy.rar
+tar -rxvf AntFrenzy.rar
+tar -rvf AntFrenzy.rar
+tar --help
+tar --help | grep rar
+cd ant_frenzy/
+ls
+ruby main.rb 
+gem install rubygame
+ruby main.rb 
+sudo apt-get install libsdl1.2debian-all libsdl-gfx1.2 libsdl-image1.2 libsdl-mixer1.2 libsdl-ttf2.0
+cd
+ls
+gem outdated
+cd /home/matt/irbfiles/
+ls
+cat irbrc.rb 
+cd boson
+ls
+ls commands/
+ls commands/personal/
+cat commands/personal/rails.rb 
+script/console production
 exit
-ssh mpr@beta.mpr.nci.nih.gov
+ruby -v
+cd /tmp/
+ls
+wget http://rubyforge.org/frs/download.php/68719/ruby-enterprise-1.8.7-2010.01.tar.gz
+tar zxvf ruby-enterprise-1.8.7-2010.01.tar.gz 
+ls
+./ruby-enterprise-1.8.7-2010.01/installer
+sudo ./ruby-enterprise-1.8.7-2010.01/installer
+sudo /opt/ruby-enterprise-1.8.7-2010.01/bin/passenger-install-apache2-module
+sudo apt-get install apache2-mpm-prefork
+sudo apt-get install apache2-prefork-dev
+sudo apt-get install libapr1-dev
+sudo apt-get install libaprutil1-dev
+sudo /opt/ruby-enterprise-1.8.7-2010.01/bin/passenger-install-apache2-module
+rvm-install
+rm -rf /opt/ruby-enterprise-1.8.7-2010.01/
+sudo rm -rf /opt/ruby-enterprise-1.8.7-2010.01/
+ls
 exit
-ssh deploy@tips-production
+cd develop/clients/traffipax/tipsng/tips
+gco master
+svnpull
+gco 157
+grm
+cucumber 
+gco master
+git merge 157
+svnoush
+svnpush
+cap demo production
+cap demo deploy
+gem install rvm
+spb spec
+cucumber features/jobs/associate_videos.feature 
+cucumber features/jobs/associate_videos.feature -p debug
+cucumber features/jobs/associate_videos.feature:6 -p debug
+gco 130
+git stash
+grm
+git stash pop
+cucumber features/jobs/associate_videos.feature:6 -p debug
+gst
+cucumber features/jobs/associate_videos.feature:6 -p debug
+cucumber features/jobs/associate_videos.feature
+gst
+gco mastet
+gco master
+svnpull
+gco 130
+grm
+cucumber 
+spb spec
+spb spec/models/incident_spec.rb 
+gst
+gco master
+git merge 130
+svnpush
+gb
+pwd
+rake -T restart
+sudo restart apache
+sudo restart apache2
+sudo server apache2 restart
+sudo servers apache2 restart
+sudo /etc/init.d/apache2 restart
+ls
+gst
+ruby -v
+rvm
 exit
-vi install.sh 
-gst
-gco install.sh
-gst
-vi install.sh 
-zsh --version
-vi zshrc 
+script/console
+exit
+exit
+PS1='\[\033]0;\w\007\][`__git_ps1`]  $PS1'
+exit
+ls
+PS1="\[\033]0;\w\007\][`__git_ps1`]  $PS1"
+PS1="\$(~/.rvm/bin/rvm-prompt) $PS1"
 exit
