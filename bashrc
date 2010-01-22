@@ -49,12 +49,13 @@ if [ -n "$force_color_prompt" ]; then
     fi
 fi
 
-if [ "$color_prompt" = yes ]; then
-    #PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
-    PS1='[`__git_ps1`] \w\$ '
-else
-    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
-fi
+
+PS1='\W\$ '
+#if [ "$color_prompt" = yes ]; then
+#    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+#else
+#    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+#fi
 unset color_prompt force_color_prompt
 
 # If this is an xterm set the title to user@host:dir
@@ -108,6 +109,14 @@ if [ -f ~/.profile-ruby ]; then
     . ~/.profile-ruby
 fi
 
+if [ -f ~/.bash_git ]; then
+    . ~/.bash_git
+fi
+
+if [ -f ~/.bash_svn ]; then
+    . ~/.bash_svn
+fi
+
 if [ -f ~/.bash_ruby ]; then
     . ~/.bash_ruby
 fi
@@ -116,10 +125,3 @@ if [ -f ~/.bash_rails ]; then
     . ~/.bash_rails
 fi
 
-if [ -f ~/.bash_git ]; then
-    . ~/.bash_git
-fi
-
-if [ -f ~/.bash_svn ]; then
-    . ~/.bash_svn
-fi

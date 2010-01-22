@@ -27,5 +27,5 @@ complete -o default -o nospace -F _git_checkout gco
 ##TODO: Once Bash 4 is available,
 ##  Replace the following mess with
 ##   PROMPT_DIRTRIM=20
-PS1='\[\033]0;\w\007\][`__git_ps1`] \W\$ '
+PS1="\[\033]0;\w\007\][`__git_ps1`] $PS1"
 

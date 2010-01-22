@@ -9,3 +9,6 @@ export JEWELLER_OPTS="--gemcutter"
 alias sspb='script/spec --require ~/lib/rspec/compact_progress_bar_formatter.rb --format Spec::Runner::Formatter::CompactProgressBarFormatter --color'
 alias  spb='spec        --require ~/lib/rspec/compact_progress_bar_formatter.rb --format Spec::Runner::Formatter::CompactProgressBarFormatter --color'
 
+##rvm
+if [[ -s /home/matt/.rvm/scripts/rvm ]] ; then source /home/matt/.rvm/scripts/rvm ; fi
+PS1="\$(~/.rvm/bin/rvm-prompt) $PS1"
