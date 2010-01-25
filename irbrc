@@ -27,7 +27,7 @@ module RailsHelper
   end
 end
 
-if ENV.include?('RAILS_ENV')
+if ENV['RAILS_ENV']
 #  include RailsHelper
 end
 
