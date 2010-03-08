@@ -1,5 +1,5 @@
 --- 
-gem: --no-rdoc --run-tests
+gem: --no-ri --no-rdoc --run-tests
 gemcutter_key: e8303f5de9326620f085e788d2d1a998
 
 :backtrace: false
