@@ -1,500 +1,500 @@
-cucumber --help
-time cucumber features/jobs/register_video.feature:24 -p debug -v
-time cucumber features/jobs/register_video.feature:24
-time cucumber features/jobs/register_video.feature:24 -p debug
-time cucumber features/jobs/register_video.feature:24 -p
-time cucumber features/jobs/register_video.feature:24 -p debug
-time cucumber features/jobs/register_video.feature:24 
-time cucumber features/jobs/register_video.feature:24 -p debug
-gem ininstall cucumber
-gem uninstall cucumber
-time cucumber features/jobs/register_video.feature:24 -p debug
-gst
-gd
-time cucumber features/jobs/register_video.feature:24 -p debug
-time cucumber features/jobs/register_video.feature:24
-time cucumber features/jobs/register_video.feature:24 -p debug
-time cucumber features/jobs/register_video.feature
-spb spec
-time cucumber features/jobs/register_video.feature
-time cucumber features/jobs/register_video.feature:24 -p debug
-time cucumber features/jobs/register_video.feature:24
-script/generate cucumber --spork
-time cucumber features/jobs/register_video.feature:24
-time cucumber features/jobs/register_video.feature:24 -p debug
-time cucumber features/jobs/register_video.feature:24
-time cucumber features/jobs/register_video.feature:24 -p debug
-gst
-gem list cucu
-gem uninstall cucumber-rails
-time cucumber features/jobs/register_video.feature:24 -p debug
-script/generate cucumber --spork
-time cucumber features/jobs/register_video.feature:24 -p debug
-cucumber 
-cucumber features/camera_event_associations.feature:6 -p debug
-gem list cuc
-cucumber features/camera_event_associations.feature:6 -p debug
-history -w
-exit
-cucumber features/camera_event_associations.feature:6 -p debug
-exit
-cucumber features/camera_event_associations.feature:6 -p debug
-cucumber features/camera_event_associations.feature:6 TXN=false
-cucumber features/camera_event_associations.feature:6 -p debug
-cucumber features/camera_event_associations.feature:6 TXN=false -p debug
-cucumber features/camera_event_associations.feature:6 TXN=false
-TXN=false cucumber features/camera_event_associations.feature:6 -p debug
-cucumber features/camera_event_associations.feature:6 TXN=false
-cucumber features/camera_event_associations.feature:6
-cucumber features/camera_event_associations.feature:6 -p debug
-exit
-spork cuc
-gem list cuc
-gem uninstall cucumber
-spork cuc
-spork cuc DEBUG=true
-DEBUG=true spork cuc
-spork cuc
-exit
-ssh deploy@10.0.4.109
-cd
-cd /tmp
-wget http://download.jetbrains.com/ruby/rubymine-2.0.1.tar.gz
-tar -zxvf rubymine-2.0.1.tar.gz 
-sudo mv rubymine93.95 /usr/local/lib/
-sudo vi /usr/local/bin/rubymine 
-exit
-cd /home/matt/develop/clients/traffipax/tipsng/tips
-cd /home/matt/develop/gems/
 ls
-cd cucumber-rails/
-hub pull
-cat .git/config 
-hub remote add aslakhellesoy
-cat .git/config 
-hub pull aslakhellesoy
-hub pull aslakhellesoy/master
-hub pull aslakhellesoy.master
-hub pull aslakhellesoy master
-git pull
-gb
-gco -b aslak
-hub pull aslakhellesoy master
-grm
-gst
-gd
-gb
-gco browse
-gd
-gc --interactive
-gst
-gco aslak
-hub pull aslakhellesoy master
-gco master
-git merge aslak
-gco browse
-grm
-gco master
-git merge browse
-rake -T
-rake gemspec
-gst
-rake build
-gem install pkg/mattscilipoti_cucumber-rails-0.2.4.gem 
-git push
-cat .git/config 
-vi .git/config 
-git push
-rake release
-rake gemspec
-gst
-gco Rakefile
-gst
-rake build
-gem install pkg/mattscilipoti_cucumber-rails-0.2.4.gem 
-gem list cucumber-rails.gemspec 
-gem list cucumber
-gem search cucumber
-cat /home/matt/.gem/ruby/1.8/gems/mattscilipoti_cucumber-rails-0.2.4/lib/cucumber/rails/active_record.rb 
-rake build
-gem install pkg/mattscilipoti_cucumber-rails-0.2.4.gem 
-rake build
-gem install pkg/mattscilipoti_cucumber-rails-0.2.4.gem 
-pwd
-gst
-gd
-gst
-gco cucumber-rails.gemspec
-gst
-rake build
-gem install pkg/mattscilipoti_cucumber-rails-0.2.4.gem 
-cat /home/matt/.gem/ruby/1.8/gems/mattscilipoti_cucumber-rails-0.2.4/lib/cucumber/rails/active_record.rb 
-vi /home/matt/.gem/ruby/1.8/gems/mattscilipoti_cucumber-rails-0.2.4/lib/cucumber/rails/active_record.rb 
-vi /home/matt/.gem/ruby/1.8/gems/mattscilipoti_cucumber-rails-0.2.4/lib/cucumber/rails/world.rb 
-vi /home/matt/.gem/ruby/1.8/gems/mattscilipoti_cucumber-rails-0.2.4/lib/cucumber/rails/active_record.rb 
-gst
-gd
-gco lib/cucumber/rails/world.rb
-gst
-rake build
-gem install pkg/mattscilipoti_cucumber-rails-0.2.4.gem 
-vi /home/matt/.gem/ruby/1.8/gems/mattscilipoti_cucumber-rails-0.2.4/lib/cucumber/rails/active_record.rb 
-vi /home/matt/.gem/ruby/1.8/gems/cucumber-0.6.2/lib/cucumber/cli/options.rb 
-vi /home/matt/.gem/ruby/1.8/gems/cucumber-0.6.2/lib/cucumber/cli/configuration.rb 
-vi /home/matt/.gem/ruby/1.8/gems/mattscilipoti_cucumber-rails-0.2.4/lib/cucumber/rails/world.rb 
-vi /home/matt/.gem/ruby/1.8/gems/cucumber-0.6.2/lib/cucumber/cli/options.rb 
-vi /home/matt/.gem/ruby/1.8/gems/mattscilipoti_cucumber-rails-0.2.4/lib/cucumber/rails/world.rb 
-rake build
-gem install pkg/mattscilipoti_cucumber-rails-0.2.4.gem 
-vi /home/matt/.gem/ruby/1.8/gems/cucumber-0.6.2/lib/cucumber/cli/options.rb 
-rake release
-gst
+exit
+vsftp
+ps faux | grep ftp
+sudo /etc/init.d/vsftpd start
+ls /home/
+ls /home/testftp/usr/bif/
 ls
+ls /home/testftp/usr/bif/
 gst
-gitk
-git merge browse
-gco browse
-grm
-gitk
-cd ..
-ls
-mv mattscilipoti-model_steps mattscilipoti_model-steps
-cd mattscilipoti_model-steps/
-ls
+exit
+autotest
 rake
-cucumber 
+rake 
+gem outdated
+gem update heroku
+gem update i18n
+rake
+gst
+gca
+git push
+git push staging
+heroku console
+gst
+gd
+gitka -a &
+gitk -a &
+gca
+git push
+git push staging
+script/generate migration AddForgottenTimestamps
+rake db:mirate
+rake db:migrate
+rake
+autotest
+rake test:integration
+rake
+gst
+gd
+script/generate should_scaffold
+script/generate shoulda_scaffold admin/practitioner
+script/generate shoulda_scaffold
+gem list sho
+script/generate shoulda_scaffold admin/practitioner --skip_layout
+script/generate shoulda_scaffold admin/practitioner --skip-layout
+script/generate shoulda_scaffold --skip-layout admin/practitioner
+script/generate --skip-layout shoulda_scaffold admin/practitioner
+script/generate shoulda_scaffold --skip-layout practitioner
+gem install view_mapper
+script/generate view_for admin/practitioner
+script/generate view_for practitioner
+script/generate view_for practitioner --view has_many:languages
+script/generate view_for practitioner --view has_many:user_languages
+script/generate migration AddSupportingInfoToPractitioner certifications:string memberships:string services:string
+rake db:migrate
+gem update zentest
+gem update ZenTest
+autotest
+autotest -rails
+vi /home/matt/config_files/autotest
+gem list test-unit -ar
+autotest
+gem unsintall test-unit
+gem unisntall test-unit
+gem uninstall test-unit
+gem install test-unit -v1.2.3
+autotest
+ruby test/integration/admin_dashboard_test.rb 
+gem list red
+ruby test/integration/admin_dashboard_test.rb 
+q
+ruby test/integration/admin_dashboard_test.rb 
+q
+ruby test/integration/admin_dashboard_test.rb 
+autotest
+script/plugin install git://github.com/NZKoz/rails_xss.git
+gem update erubis
+gem list eru
+autotest
+ruby test/unit/factories/clearance_test.rb 
+rdebug test/unit/factories/clearance_test.rb 
+ruby test/unit/factories/clearance_test.rb 
+autotest
+gem list matts
+gem install mattscilipoti-factory_girl
+ruby test/unit/factories/clearance_test.rb 
+autotest
+ruby test/integration/practitioner_profile_test.rb 
+gst
+gd
+ruby test/integration/practitioner_profile_test.rb 
+gst
+exit
+cd develop/clients/wearetitans/health_crowd/
 ls
-rake build
-gem install pkg/mattscilipoti-model_steps-0.0.0.gem 
-cd ,,
-cd ..
-ls
-cd mattscilipoti_model-steps/
-rake build
-gem install pkg/mattscilipoti_model-steps-0.0.0.gem 
-rm -rf mattscilipoti-model_steps.gemspec 
-rake build
-gem install pkg/mattscilipoti_model-steps-0.0.0.gem 
-rake build
-gem install pkg/mattscilipoti_model-steps-0.0.0.gem 
-rake build
-gem install pkg/mattscilipoti-model_steps-0.0.0.gem 
-rake gemspec
-rake build
-gem install pkg/mattscilipoti-model_steps-0.0.0.gem 
-gem list matt
+git pull
+gst
+rake
+gst
+gem list fa
+gem install shoulda_generator
+script/generate AddNamePrefixToUser name_prefix:string name_suffix:string
+script/generate migration AddNamePrefixToUser name_prefix:string name_suffix:string
+rake db:migrate
+gem install awesome_print
+rake db:migrate:redo
+gd
+heroku console User.all.collect {|u| u.title}
+heroku console User.all.collect({|u| u.title})
+heorku conosle
+heorku console
+heroku console
+rake
+script/generate migration CreateLanguages name:string
+rubymine
+rubymine &
+script/generate shoulda_model Language locale:string name:string
+rake db:migrate
+gst
+gco test/unit/user_test.rb
+ga app/models/language.rb 
+ga db/migrate/
+ga test/unit/
+gst
+ga test/factories/
+gst
+script/generate migration UserHasManyLanguages
+rake db:migrate
+rake db:migrate:redo
+gst
+gco test/integration/practitioner_signup_test.rb
+gem list test
+gem install test-unit
+gem list -d test-unit
+rake
+rake test:units
+rake
+rake test:integration
+rake
+rake test:integration
+gem list test
+gem list i18
+gst
+gem lis test
+gst
+git --interactive
+gc --interactive
+gc app/controllers/admin/practitioners_controller.rb 
+gd app/controllers/admin/practitioners_controller.rb 
+gd --cached app/controllers/admin/practitioners_controller.rb 
+gc app/controllers/admin/practitioners_controller.rb 
+gst
+ga db/migrate/
+gst
+rake
+gst
+git reset HEAD^
+gd
+gst
+ga app/controllers/admin/languages_controller.rb
+ga app/models/
+gst
+ga db/migrate/
+ga test/factories/
+ga test/unit/language_test.rb 
+gst
+git push
+gitpull
+git pull
+script/generate migration RenameUserDescripton
+rake db:migrate
+gst
+gc --interactive
+gd
+gst
+git push
+gst
+ga db/migrate/
+gst
+whois myconfplan.com
 gst
 gd
 gca
+git push heroku master
+git push staging
+heroku rake db:migrate
+heroku log
+heroku logs
 gst
-git reset HEAD .idea/.*
-gst
-ga lib/
-gst
-gd
-rake gemspec
-rake build
-gem install pkg/mattscilipoti-model_steps-0.0.0.gem 
-ssh deploy@tips-demo
-ssh deploy@tipsng
-exit
-script/console production
-ping tipsmail
-ping tips-mail
+heroku console
+heroku logs
 ls
-less log/development.log 
-less --raw log/development.log 
-gem outdated
-script/console production
-exit
-script/console
-gco bif
-script/console
-cucumber features/camera_event_associations.feature:6 -p debug
 gst
-cucumber features/camera_event_associations.feature:6 -p debug
-cucumber features/camera_event_associations.feature:6 -p debug | tee /tmp/dev.log
-less /tmp/dev.log 
-cucumber features/camera_event_associations.feature:6 -p debug | tee /tmp/dev.log
-cucumber features/camera_event_associations.feature:6 -p debug
+gca
 gst
-script/generate cucumber 
+gco db/migrate/20100401204049_create_specialty.rb
+gco db/migrate/20100408182824_create_languages.rb
+gco db/migrate/20100408192156_user_has_many_languages.rb
 gst
-cucumber features/camera_event_associations.feature:6 -p debug
-cucumber features/jobs/register_video.feature 
-spec -cfs spec/models/camera_event_spec.rb 
-gst
-cucumber features/jobs/register_video.feature 
-gd
-cucumber features/jobs/register_video.feature 
-cucumber -format pretty features/jobs/regis;5D;5Dter_video.feature 
-cucumber --format pretty features/jobs/register_video.feature 
-cat tmp/cucumber/rerun.txt 
-cucumber 
-cucumber features/jobs/register_video.feature -p demo
-ls /usr/lib
-which rubymine
-gst
-git stash
-gco 130
-grm
-gst
-cucumber features/jobs/create_incidents.feature -p demo
-gco master
-gco spork
-gitk
-gco 130
-cucumber features/jobs/create_incidents.feature -p demo
-cucumber features/jobs/create_incidents.feature
-gst
-cucumber 
-cucumber features/jobs/create_incidents.feature
-gst
-gd
-cucumber features/jobs/create_incidents.feature
-gd
-cucumber features/jobs/create_incidents.feature
-cucumber 
-spb spec
-spb spec/models/camera_event_spec.rb 
-cucumber 
-spb spec
+ga db/migrate/
 gd
 gst
-gco master
-svnpull
-gco 130
-grm
-gco master
-git merge 130
-svnpush
-cap -T pend
-cap production deploy:pending
-cucumber 
-gco -b model-steps
+gc test
 gst
-gem list matt
-cucumber 
+gca
+gst
+gd
+git push staging
+heroku rake db:migrate
+gd
+gca
+git push
+git push staging
+rake db:migrate:redo VERSION=20100408182824
+gst
+gd
+rake db:migrate
+gst
+gd
+rake db:migrate:up VERSION=20100408182824
+gd
+rake db:migrate:redo VERSION=20100409133854
+gd
+gst
+gd
 gem list
-gem list matt
-cucumber 
-gem list matt
-gem uninstall mattscilipoti-model_steps
-cucumber 
-gem list matt
-cucumber 
-gem uninstall mattscilipoti_model-steps
-cucumber 
-gem list matt
-cucumber 
-gem list matt
-cucumber 
-gem uninstall mattscilipoti-model_steps
-gem list matt
-cucumber 
+gem update inherited_resources
+script/generate migration AddExperienceToUsers experience:string
+rake db:migrate
 gst
 gd
 gco -f
 gst
-gco master
-cap -T pend
-cap beta deploy:pendind:diff
-cap demo deploy:pendind:diff
-cap demo deploy:pending:diff
-cap demo deploy:pending:diff | grep migrat
-gst
+rm app/views/admin/practitioners/
+rm -r app/views/layouts/admin
+rm -r app
+rm db/migrate/20100409190739_add_experience_to_users.rb
+rm public/stylesheets/blueprint/
+rm -r public/stylesheets/blueprint/
+rm -r public/stylesheets/scaffold.css 
+rm -r test/tmp/
 gco -f
 gst
-cap demo deploy:migrations
-cap -T
-rake moonshine:gems
+ga db/migrate/
 gst
-RAILS_ENV=production rake moonshine:gems
-svnpush
-cap demo deploy:migrations
-gst
-cucumber 
-cap -T
-cap demo deploy:check
-cap demo deploy
-cap demo deploy:migrations
-cap production deploy:pend
-cap production deploy:pending
-cap production deploy
-gst
-g
-gd
-svnpush
-gco -b 157
-cucumber -p wip
-gst
-cucumber -p wip
-gd
-cucumber -p wip
-cucumber 
-gd
-cucumber 
-cucumber features/review_import_activity.feature 
-spb spec
-spb spec/lib/
-gst
-gco master
-svnpull
-gco 157
-grm
-gco master
-git merge 157
-svnpush
-RAILS_ENV=production rake moonshine:gems
 gd
 gst
-cap demo deploy
-cap -T
-cap -D invoke 
-cap --help
-cap -e invoke 
-cap demo COMMAND="rake db:seed" invoke
-rake -T seed
-rake spec:recent
-rake -g spec:recent
-cucumber 
-gco 157
-cucumber 
+git push
+gb
+gco scaffold
+grm
+git mergetool
+git rebase --continue
+git mergetool
+git rebase --continue
 gst
-gco master
-svnpull
-gco 157
+gd
+gst
+rm app/models/specialty.rb.orig
+rm test/unit/specialty_test.rb.orig
+rm test/unit/user_test.rb.orig
+gst
 grm
 gco master
-git merge 157
-svnpush
-cap demo deploy
-svnpush
-cap demo deploy
-cucumber features/troubles_index.feature 
-cucumber features/troubles_index.feature -p demo
+git pull
+gco scaffold 
+rake
+gem list test -ar
+gem install autotest-rails 
+vi .autotest
+gem list test
+gem list red
+tail -f log/test.log 
+gem install hydra
+gemlist red
+gem list red
+gstr
 gst
-svnpush
-gco 157
 grm
+gco master
+git pull
+git merge scaffold 
+git push
+git push staging
+heroku rake dv:migrate
+heroku rake db:migrate
+heroku log
+heroku logs
+heroku help
+heroku stack
+heroku restart
+heroku logs
+git push
+git push staging
 gst
-git log
-cucumber features/troubles_index.feature -p demo
-cd ..
-ls
-rm -rf mattscilipoti_model-steps/
-cd /tmp
-wget http://rubyforge.org/frs/download.php/68719/ruby-enterprise-1.8.7-2010.01.tar.gz
-tar xzvf ruby-enterprise-1.8.7-2010.01.tar.gz 
-./ruby-enterprise-1.8.7-2010.01/
-ssh deploy@tips-demo
-cd /tmp/
-wget http://rubygame.org/forums/download/file.php?id=10
-ls
-mv /home/matt/Downloads/AntFrenzy.rar .
-ls
-l
-ls
-tar -zxvf AntFrenzy.rar
-tar -rxvf AntFrenzy.rar
-tar -rvf AntFrenzy.rar
-tar --help
-tar --help | grep rar
-cd ant_frenzy/
-ls
-ruby main.rb 
-gem install rubygame
-ruby main.rb 
-sudo apt-get install libsdl1.2debian-all libsdl-gfx1.2 libsdl-image1.2 libsdl-mixer1.2 libsdl-ttf2.0
-cd
-ls
-gem outdated
-cd /home/matt/irbfiles/
-ls
-cat irbrc.rb 
-cd boson
-ls
-ls commands/
-ls commands/personal/
-cat commands/personal/rails.rb 
-script/console production
-exit
-ruby -v
-cd /tmp/
-ls
-wget http://rubyforge.org/frs/download.php/68719/ruby-enterprise-1.8.7-2010.01.tar.gz
-tar zxvf ruby-enterprise-1.8.7-2010.01.tar.gz 
-ls
-./ruby-enterprise-1.8.7-2010.01/installer
-sudo ./ruby-enterprise-1.8.7-2010.01/installer
-sudo /opt/ruby-enterprise-1.8.7-2010.01/bin/passenger-install-apache2-module
-sudo apt-get install apache2-mpm-prefork
-sudo apt-get install apache2-prefork-dev
-sudo apt-get install libapr1-dev
-sudo apt-get install libaprutil1-dev
-sudo /opt/ruby-enterprise-1.8.7-2010.01/bin/passenger-install-apache2-module
-rvm-install
-rm -rf /opt/ruby-enterprise-1.8.7-2010.01/
-sudo rm -rf /opt/ruby-enterprise-1.8.7-2010.01/
-ls
-exit
-cd develop/clients/traffipax/tipsng/tips
+gb
+gb -d scaffold
+gb -d schema
+gco -b 960
+compassgem list compass
+gem list compass
+gem search compass -r
+gem search 960 -r
+gem install compass-960-plugin
+compass -r ninesixty -f 960 .
+compass
+compass --help
+compass -u -r ninesixty -f 960 .
+gem list gst
+gd
+gst
+echo $PATH
+gem install compass-validator
+compass-validator
+gst
 gco master
-svnpull
-gco 157
+gc app/models/
+git push
+gco 960 
 grm
-cucumber 
-gco master
-git merge 157
-svnoush
-svnpush
-cap demo production
-cap demo deploy
-gem install rvm
-spb spec
-cucumber features/jobs/associate_videos.feature 
-cucumber features/jobs/associate_videos.feature -p debug
-cucumber features/jobs/associate_videos.feature:6 -p debug
-gco 130
 git stash
 grm
 git stash pop
-cucumber features/jobs/associate_videos.feature:6 -p debug
+git stash list
 gst
-cucumber features/jobs/associate_videos.feature:6 -p debug
-cucumber features/jobs/associate_videos.feature
+ga app/stylesheets/
+gd
+compass --help |grep rails
+compass -u -r ninesixty -f 960 --rails .
+compass -i -r ninesixty -f 960 --rails .
 gst
-gco mastet
-gco master
-svnpull
-gco 130
-grm
-cucumber 
-spb spec
-spb spec/models/incident_spec.rb 
+gco -f
 gst
-gco master
-git merge 130
-svnpush
-gb
-pwd
-rake -T restart
-sudo restart apache
-sudo restart apache2
-sudo server apache2 restart
-sudo servers apache2 restart
-sudo /etc/init.d/apache2 restart
-ls
+compass -i -r ninesixty -f 960 --rails .
 gst
-ruby -v
-rvm
+ga app/stylesheets/
+gem list com
+gst
+compass -i -r ninesixty -f 960 .
+gst
+gd
+gst
+script/generate view_for Practitioner --view belongs_to:specialty --view has_many_existing:languages
+script/generate view_for Practitioner --view belongs_to:specialty --view has_many_existing:languages --trace
+script/generate view_for --help
+script/generate view_for Practitioner --view belongs_to:specialty --view has_many_existing:languages -t
+script/generate view_for Practitioner -t --view belongs_to:specialty --view has_many_existing:languages
+script/generate view_for -t Practitioner --view belongs_to:specialty --view has_many_existing:languages
+script/generate -t view_for Practitioner --view belongs_to:specialty --view has_many_existing:languag
+script/generate view_for Practitioner --view belongs_to:specialty --view has_many_existing:languages
+script/generate view_for Practitioner --view belongs_to:specialty --view
+script/generate view_for Practitioner --view belongs_to:specialty
+gst
+gd
+gst
+ga vendor/plugins/rails_xss/
+gst
+rm public/stylesheets/scaffold.css
+cat app/views/layouts/practitioners.html.erb
+rm app/views/layouts/practitioners.html.erb
+gst
+git reset HEAD vendor/plugins/rails_xss/
+gst
+gs
+gd
+gst
+gco  app/stylesheets/partials/_forms.sass
+gst
+rm -r vendor/plugins/rails_xss/
+gst
+autotest
+script/plugin install git://github.com/lifo/fast_context.git
+gd app/views/practitioners/
+gst]
+gst
+ga vendor/plugins/fast_context/
+gst
+ruby test/unit/factories/
+ruby test/unit/factories/clearance_test.rb 
+gst
+rm -r test/tmp/
+gem list
+gem list Re
+gem list rd
+gem install rdiscoutn -r
+gem install rdiscount
+gem install rdiscountgst
+gst
+rm er.lastq 
+gst
+gd
 exit
+scrippt/console
+script/console
+rake gems:install
+script/console
+gem list
+gst
+gd
+git reset HEAD^
+gst
+
+script/console
+gst
+gco mastre
+gco master
+gem list vie
+gem outdated
 script/console
 exit
+script/server 
+gem list inh
+gem install inherited_resources --version=1.0.6
+script/server 
+rm -r public/stylesheets/compiled/
+script/server 
+script/server \
+script/server
 exit
-PS1='\[\033]0;\w\007\][`__git_ps1`]  $PS1'
+compass -w
+gst
+gd
+compass -w
+gst
+gd
+gem list bio -d
 exit
+cd /home/matt/develop/clients/traffipax/tipsng/tips
+less config/environment.rb 
+less config/environments/test.rb 
+ls config/initializers/
+grep-ack factory_girl
+ack factory_girl
+ack-grep factory_girl
+ld vendor/
+ls vendor/
+ls vendor/gems/
+ls vendor/plugins/
+ack-grep 'def reset'
+less spec/factories/factories.rb 
+exit
+ssh beta.mpr.nci.nih.gov 
+ssh mpr@beta.mpr.nci.nih.gov 
+exit
+ssh mpr@mpr.nci.nih.gov 
+exit
+cd /home/matt/develop/clients/nih/mpr.ror/trunk/
 ls
-PS1="\[\033]0;\w\007\][`__git_ps1`]  $PS1"
-PS1="\$(~/.rvm/bin/rvm-prompt) $PS1"
+cap deploy
+ls
+gem search adapter -r
+exit
+script/server
+exit
+exit
+cd develop/clients/greatenough/
+ls
+cd bmore_guests/
+ls
+rake
+gem list
+rake
+gst
+rake
+gd
+gst
+gd
+gst
+git push
+git push heroku master
+exit
+ls .RubyMine10
+ls .RubyMine15
+rm -r .RubyMine10
+rm -r .RubyMine15
+cd /home/matt/develop/
+ls
+cd clients/wearetitans/
+ls
+rm -r spree/
+rm -rf spree/
+rm -rf ygs
+mysql -uroot
+mysqlcheck --check-upgrade --fix-db-names --fix-table-names --all-databases
+mysqlcheck --check-upgrade --fix-db-names --fix-table-names --all-databases uroot
+mysqlcheck --check-upgrade --fix-db-names --fix-table-names --all-databases -uroot
+mysql -uroot
+exit
+cheat mysql
+exit
+idisk.mount
+ls /mnt/idisk/
+ncds
+ncdu
+du
+du -sh
+cd /tmp/
+ls
+sudo ls
 exit
