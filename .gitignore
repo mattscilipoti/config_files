@@ -1,3 +1,9 @@
+
+##IDE
+ #vim
 *.swp
 .swo
 vim/.netrwhist
+ #rubymine
+.idea
+
