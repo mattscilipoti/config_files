@@ -21,6 +21,9 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 export PATH=/Users/matt/.rvm/rubies/ree-1.8.7-2010.01/bin:/Users/matt/.rvm/gems/ree-1.8.7-2010.01/bin:/Users/matt/.rvm/gems/ree-1.8.7-2010.01@global/bin:/Users/matt/.rvm/bin:/Users/matt/.gem/ruby/1.8/bin:/Users/matt/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/ncbi/blast/bin:/usr/X11/bin
 
+if [ -f ~/.profile ]; then
+    source ~/.profile
+fi
 
 ## pre .oh_my_zsh
 # # completion
