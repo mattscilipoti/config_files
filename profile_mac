@@ -1,2 +1,2 @@
-EDITOR='mate -w'
-VISUAL='mate -w'
+export EDITOR='mate -w'
+export VISUAL='mate -w'

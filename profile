@@ -106,22 +106,22 @@
 
 export PATH=~/bin:$PATH
 
-if [ -f ~/.profile-mac ]; then
-    . ~/.profile-mac
+if [ -f ~/.profile_mac ]; then
+    source ~/.profile_mac
 fi
 
-if [ -f ~/.profile-ruby ]; then
-    . ~/.profile-ruby
+if [ -f ~/.profile_ruby ]; then
+    source ~/.profile_ruby
 fi
 
 if [ -f ~/.bash_git ]; then
-    . ~/.profile_git
+    source ~/.profile_git
 fi
 
 if [ -f ~/.bash_svn ]; then
-    . ~/.profile_svn
+    source ~/.profile_svn
 fi
 
 if [ -f ~/.bash_rails ]; then
-    . ~/.profile_rails
+    source ~/.profile_rails
 fi
