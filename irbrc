@@ -10,7 +10,7 @@ Wirble.colorize
 puts "`include RailsHelper` for named_urls, helpers, etc."
 
 module RailsHelper
-
+  require 'database_cleaner'
   def self.included(base)
     #TODO: is there better wat than #send?
     Gem.send('require', 'arspy')
