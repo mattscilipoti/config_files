@@ -17,11 +17,16 @@ module RailsHelper
     
     ##from: http://kpumuk.info/ruby-on-rails/memo-6-using-named-routes-and-url_for-outside-the-controller-in-ruby-on-rails/
     ## this is slow because all routes and resources being calculated now
-    base.send('include', ActionController::UrlWriter)
+    if Rails.version.to_i < 3
+      base.send('include', ActionController::UrlWriter)
+    else
+      base.send('include', Rails.application.routes.url_helpers)
+    end
     base.default_url_options[:host] = 'www.example.com'
-
-    DatabaseCleaner.strategy = :truncation, {:except => SeedData.seed_tables}
-    puts "You can now utilize named_urls & DatabaseCleaner.clean"
+    puts "You can now utilize named_urls"
+  
+    # DatabaseCleaner.strategy = :truncation, {:except => SeedData.seed_tables }
+    # puts "You can now utilize DatabaseCleaner.clean"
 
     # print SQL to STDOUT
     if !Object.const_defined?('RAILS_DEFAULT_LOGGER')
