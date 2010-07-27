@@ -1,3 +1,6 @@
+#http://github.com/fnando/test_notifier
+#require 'test_notifier/autotest'
+
 #from: http://ph7spot.com/musings/getting-started-with-autotest
 Autotest.add_hook :initialize do |autotest|
   %w{.git .svn .hg .DS_Store ._* vendor tmp log doc}.each do |exception|
