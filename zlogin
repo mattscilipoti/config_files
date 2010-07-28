@@ -15,6 +15,9 @@ export CLICOLOR=1
 # expand functions in the prompt
 setopt prompt_subst
 
+#correct prompt issue w/rvm (~rvm_rvmrc_cwd). see: http://rvm.beginrescueend.com/integration/zsh/
+unsetopt auto_name_dirs
+
 # prompt
 export PS1='$(git_prompt_info)[${SSH_CONNECTION+"%{$fg_bold[green]%}%n@%m:"}%{$fg_bold[blue]%}%~%{$reset_color%}] '
 
