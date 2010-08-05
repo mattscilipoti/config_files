@@ -14,7 +14,6 @@ firefox_profile_backup
 .gem
 .RubyMine10/system/caches
 develop
-mattscilipoti-*.gemspec
 setup-ruby-dev
 
 #tmp
