@@ -17,4 +17,4 @@ alias  spb='spec        --require ~/lib/rspec/compact_progress_bar_formatter.rb 
 
 ##rvm
 if [[ -s ~/.rvm/scripts/rvm ]] ; then source ~/.rvm/scripts/rvm ; fi
-PS1="\$(~/.rvm/bin/rvm-prompt) $PS1"
+#PS1="\$(~/.rvm/bin/rvm-prompt) $PS1"
