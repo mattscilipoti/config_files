@@ -17,6 +17,9 @@ export ZSH_THEME="mscilipoti"
 # Uncomment following line if you want to disable colors in ls
 # export DISABLE_LS_COLORS="true"
 
+#correct prompt issue w/rvm (~rvm_rvmrc_cwd). see: http://rvm.beginrescueend.com/integration/zsh/
+unsetopt auto_name_dirs
+
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
