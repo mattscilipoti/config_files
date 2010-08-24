@@ -17,6 +17,8 @@ export ZSH_THEME="mscilipoti"
 # Uncomment following line if you want to disable colors in ls
 # export DISABLE_LS_COLORS="true"
 
+plugins=(osx)
+
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
