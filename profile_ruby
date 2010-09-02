@@ -19,6 +19,7 @@ alias  spb='spec        --require ~/lib/rspec/compact_progress_bar_formatter.rb 
 alias raket='RAILS_ENV=test rake'
 
 ##rvm
+alias ..-='cd .. && cd -' #useful for triggering .rvmrc
 #correct prompt issue w/rvm (~rvm_rvmrc_cwd). see: http://rvm.beginrescueend.com/integration/zsh/
 unsetopt auto_name_dirs
 
